@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet icon" type="x-icon" href="logo.png">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <!-- ... existing meta tags and links ... -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- ... your existing stylesheets and scripts ... -->
+    <title>Port</title>
+</head>
+
+<body>
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)">
+                    <i class="fa-solid fa-user"></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)">
+                    <i class="fa-solid fa-list"></i>
+                    <p>Skills</p>
+                </li>
+                <li onclick="Navigate(3)">
+                    <i class="fa-solid fa-images"></i>
+                    <p>Project</p>
+                </li>
+                <li onclick="Navigate(4)">
+                    <i class="fa-solid fa-link"></i>
+                    <p>Project Link</p>
+                </li>
+                <li onclick="Navigate(5)">
+                    <i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Senthilnayagan</span>,</h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">As a skilled web developer, I have a strong command of HTML, CSS, JavaScript, Sql, Java, and Python, with a growing skill set in various other technologies, allowing me to build and design responsive and dynamic web applications</p>
+                        <a href="Resume.pdf" download class="btn btn-dark">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="BN.png" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">
+                        Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About Me</h1>
+                        <h3 class="sub-heading">I'm Senthilnayagan, <span class="proffesions">A Web Developer</span></h3>
+                        <p class="aboutme-deatils">
+                            My name is Senthilnayagan, and I am from Neyveli. I am an aspiring web developer with a solid foundation in web technologies, including HTML, CSS, and JavaScript, as well as back-end programming languages like Java and Python. I hold a Bachelor's degree
+                            in Computer Science Engineering and a diploma in the same field. My academic background has equipped me with a strong understanding of programming principles and problem-solving techniques. While I am at the beginning of my
+                            career, I am continuously enhancing my skill set and am eager to apply my knowledge to real-world projects. I am committed to growing as a developer and contributing to impactful web solutions.
+                        </p>
+                        <div class="about-me-divison">
+                            <div class="about-me-table">
+
+                                <li><span>Country:</span> India</li>
+                                <li><span>Avability:</span> 24/7 </li>
+                                <li><span>Age</span>: 23</li>
+                                <li><span>Phone</span>: 9345222105</li>
+                                <li><span>Language Used:</span>HTML</li>
+                                <li><span>Degree</span>: CSE</li>
+
+                            </div>
+
+                            <div class="skill-bar">
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:99%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:80%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:85%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Java</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:60%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Python</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:70%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Django</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:60%"></div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Skills</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Design</h2>
+                        <p>Web design involves creating visually appealing and user-friendly interfaces for websites and applications.It encompasses layout, color schemes, typography, and interactive elements to ensure an engaging and effective user experience
+                            while also considering functionality and accessibility.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>
+                            Web development focuses on building and maintaining the backend and frontend functionality of websites and web applications, including server-side logic, database integration, and client-side interactivity.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h2>Oops</h2>
+                        <p>Object-Oriented Programming (OOP) is a programming paradigm that organizes data and behavior into objects, promoting modularity, reusability, and maintainability of code.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h2>Database Management </h2>
+                        <p>Database management involves the systematic organization, storage, and retrieval of data using database systems to ensure data integrity, security, and efficient access.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h2>Software Developer</h2>
+                        <p>A software developer designs, codes, and maintains software applications and systems to meet user needs and solve specific problems.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h2>Problem Solving</h2>
+                        <p>Problem-solving is the process of identifying, analyzing, and finding effective solutions to complex issues or challenges.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Project</h1>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Project</th>
+                                <th>Overview</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Student Study Portal</td>
+                                <td>This project is a Django Student Dashboard, that is to say. Eight sections make up the Student Study Portal. Notes, Homework,ToDo,Youtube, Wikipedia,Dictionary, Book and Conversion</td>
+                            </tr>
+                            <tr>
+                                <td>Road Vehicle Analysis</td>
+                                <td>
+                                    Vehicle detection and classification hold an essential place in traffic surveillance systems and traffic safety.project proposes a method to estimate the speed, color, and type of vehicles
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Hate Speech Prediction</td>
+                                <td>
+                                    Hate speech prediction is the task of predicting if communication such as text, audio, and so on contains hatred and or encourages violence toward a person or a group of people.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Handwritten Digit Recognition</td>
+                                <td>Certified Project Based Learning By IBM Project A Novel Method For Handwritten Digit Recognition</td>
+                            </tr>
+                            <tr>
+                                <td>C Cube Techologies</td>
+                                <td>Project at “Diploma in coreldraw” and submitted at the partial Requirement of image editing, creative Designing of desktop </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Project Link</h1>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Project</th>
+                                <th>Overview</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Student Study Portal</td>
+                                <td>The project is a Django-based Student Dashboard, which functions as a Student Study Portal. It includes eight sections: Notes, Homework, ToDo, YouTube, Wikipedia, Dictionary, Book, and Conversion. The technologies used
+                                    in this project are HTML, CSS, Python, Django, and JavaScript. Various databases like SQLite, PostgreSQL, and MongoDB are integrated to manage the data efficiently.</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Project</th>
+                                <th>Overview</th>
+                                <th>Githup link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Student Study SQLite </td>
+                                <td>
+                                    Language: Python, Django <br> Framework: HTML, CSS, JavaScript <br> Database: SQLite
+                                </td>
+                                <td>
+                                    <a href="https://github.com/SenthilL13/Student-Stdy-Portel.git" style="color: #007bff; text-decoration: none; font-weight: bold;" target="_blank" rel="noopener noreferrer">Student_Study_SQLite</a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>Student Study MySQL </td>
+                                <td>
+                                    Language: Python, Django <br> Framework: HTML, CSS, JavaScript <br> Database: MySQL
+                                </td>
+                                <td>
+                                    <a href="https://github.com/SenthilL13/MysqlStudyportal.git" style="color: #007bff; text-decoration: none; font-weight: bold;" target="_blank" rel="noopener noreferrer">
+                                        Student_Study_MySQL
+                                    </a>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td>Student Study MongoDB </td>
+                                <td>
+                                    Language: Python, Django <br> Framework: HTML, CSS, JavaScript <br> Database: MongoDB
+                                </td>
+                                <td>
+                                    <a href="https://github.com/SenthilL13/Mongodb_sty_portal.git" style="color: #007bff; text-decoration: none; font-weight: bold;" target="_blank" rel="noopener noreferrer">Student_Study_MongoDB</a>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>9345222105</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Neyveli</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>senthilnayagan100@gmail.com</p>
+                    </div>
+
+                    <div class="SocialLinks">
+                        <a href="https://github.com/SenthilL13" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+                        <a href="https://www.instagram.com/p/CYbGIrHsJky/?utm_source=qr&igsh=MWFzdzNlbWZrM2l2YQ%3D%3D" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+                        <a href="https://wa.me/9345222105" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+                        <a href="https://x.com/SSenthilNa18305?t=8YdG052AzDx1qwCqithnDg&s=08" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+                        <a href="https://www.facebook.com/profile.php?id=100093197073366&mibextid=ZbWKwL" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+                    </div>
+
+                    <!-- The Form -->
+                    <form id="myForm">
+                        <h2>Send Me A Message</h2>
+                        <input name="Email" type="email" placeholder="Email" required />
+                        <input name="Name" type="text" placeholder="Name" required />
+                        <textarea name="Message" rows="10" placeholder="Your message here..." required></textarea>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                    <!-- The Popup -->
+                    <div class="popup" id="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup()">&times;</span>
+                            <p>Your details have been successfully submitted. Thanks!</p>
+                            <button type="button" onclick="closePopup()">OK</button>
+                        </div>
+                    </div>
+
+                    <footer>
+                        <li>Copyright © 2024 Senthil.</li>
+                    </footer>
+                </div>
+            </div>
+
+    </main>
+
+</body>
+
+</html>
